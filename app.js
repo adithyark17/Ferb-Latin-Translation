@@ -1,0 +1,1 @@
+var serverURL = "https://api.funtranslations.com/translate/ferb-latin.json"
