@@ -1,5 +1,5 @@
 var btn = document.querySelector("#btn")
-var txt = document.querySelector("txt-input")
+var txt = document.querySelector("text-input")
 var output = document.querySelector("#output")
 
 var serverURL = "https://api.funtranslations.com/translate/ferb-latin.json"
@@ -9,12 +9,10 @@ function getTranslationURL (text) {
 }
 
 function errorHandler(error){
-    console.log (" Error occured", error);
+    console.log ("Error occured", error);
     alert("Something wrong with server, Try again later");
 
 }
-
-
 
 function clickEventHandler(){
     var input = txt.value;
